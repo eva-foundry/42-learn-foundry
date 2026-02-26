@@ -1,0 +1,937 @@
+{
+  "schema": "eva.veritas-plan.v1",
+  "generated_at": "2026-02-25T06:37:48.151Z",
+  "generated_from": [
+    "PLAN.md"
+  ],
+  "format_detected": "veritas",
+  "prefix": "F42",
+  "features": [
+    {
+      "id": "F42-01",
+      "title": "CREATE_RESPO API [ID=F42-CREATE_RESPO]",
+      "source_heading": "## Feature: CREATE_RESPO API [ID=F42-CREATE_RESPO]",
+      "stories": [
+        {
+          "id": "F42-01-001",
+          "title": "POST /api/create_response [ID=F42-CREATE_RESPO-001]",
+          "feature_id": "F42-01",
+          "source": "heading",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F42-02",
+      "title": "USER_BROWSER API [ID=F42-USER_BROWSER]",
+      "source_heading": "## Feature: USER_BROWSER API [ID=F42-USER_BROWSER]",
+      "stories": [
+        {
+          "id": "F42-02-001",
+          "title": "POST /api/user_browser_language [ID=F42-USER_BROWSER-001]",
+          "feature_id": "F42-02",
+          "source": "heading",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F42-03",
+      "title": "FULL_PATHPAT API [ID=F42-FULL_PATHPAT]",
+      "source_heading": "## Feature: FULL_PATHPAT API [ID=F42-FULL_PATHPAT]",
+      "stories": [
+        {
+          "id": "F42-03-001",
+          "title": "GET /{full_path:path} [ID=F42-FULL_PATHPAT-001]",
+          "feature_id": "F42-03",
+          "source": "heading",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F42-API",
+      "title": "API API",
+      "source_heading": "## Feature: API API [ID=F42-API]",
+      "stories": [
+        {
+          "id": "F42-API-001",
+          "title": "GET /",
+          "feature_id": "F42-API",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F42-API-002",
+          "title": "GET /",
+          "feature_id": "F42-API",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F42-API-003",
+          "title": "GET /",
+          "feature_id": "F42-API",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F42-API-004",
+          "title": "GET /",
+          "feature_id": "F42-API",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F42-API-005",
+          "title": "GET /",
+          "feature_id": "F42-API",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F42-API-001",
+          "title": "GET /",
+          "feature_id": "F42-API",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F42-API-002",
+          "title": "GET /",
+          "feature_id": "F42-API",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F42-API-003",
+          "title": "GET /",
+          "feature_id": "F42-API",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F42-API-004",
+          "title": "GET /",
+          "feature_id": "F42-API",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F42-API-005",
+          "title": "GET /",
+          "feature_id": "F42-API",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F42-ARTICLE",
+      "title": "ARTICLE API",
+      "source_heading": "## Feature: ARTICLE API [ID=F42-ARTICLE]",
+      "stories": [
+        {
+          "id": "F42-ARTICLE-001",
+          "title": "POST /api/article",
+          "feature_id": "F42-ARTICLE",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F42-ARTICLE-001",
+          "title": "POST /api/article",
+          "feature_id": "F42-ARTICLE",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F42-UPLOADIMAGE",
+      "title": "UPLOADIMAGE API",
+      "source_heading": "## Feature: UPLOADIMAGE API [ID=F42-UPLOADIMAGE]",
+      "stories": [
+        {
+          "id": "F42-UPLOADIMAGE-001",
+          "title": "POST /api/upload-image",
+          "feature_id": "F42-UPLOADIMAGE",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F42-UPLOADIMAGE-001",
+          "title": "POST /api/upload-image",
+          "feature_id": "F42-UPLOADIMAGE",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F42-CONFIG",
+      "title": "CONFIG API",
+      "source_heading": "## Feature: CONFIG API [ID=F42-CONFIG]",
+      "stories": [
+        {
+          "id": "F42-CONFIG-001",
+          "title": "GET /config",
+          "feature_id": "F42-CONFIG",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F42-CONFIG-001",
+          "title": "GET /config",
+          "feature_id": "F42-CONFIG",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F42-HEALTH",
+      "title": "HEALTH API",
+      "source_heading": "## Feature: HEALTH API [ID=F42-HEALTH]",
+      "stories": [
+        {
+          "id": "F42-HEALTH-001",
+          "title": "GET /health",
+          "feature_id": "F42-HEALTH",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F42-HEALTH-001",
+          "title": "GET /health",
+          "feature_id": "F42-HEALTH",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F42-META",
+      "title": "META API",
+      "source_heading": "## Feature: META API [ID=F42-META]",
+      "stories": [
+        {
+          "id": "F42-META-001",
+          "title": "GET /meta",
+          "feature_id": "F42-META",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F42-META-001",
+          "title": "GET /meta",
+          "feature_id": "F42-META",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F42-ENTITIES",
+      "title": "ENTITIES API",
+      "source_heading": "## Feature: ENTITIES API [ID=F42-ENTITIES]",
+      "stories": [
+        {
+          "id": "F42-ENTITIES-001",
+          "title": "GET /v1/entities",
+          "feature_id": "F42-ENTITIES",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F42-ENTITIES-002",
+          "title": "GET /v1/entities/{entity_id}/info",
+          "feature_id": "F42-ENTITIES",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F42-ENTITIES-003",
+          "title": "POST /v1/entities/{entity_id}/reload",
+          "feature_id": "F42-ENTITIES",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F42-ENTITIES-004",
+          "title": "POST /v1/entities/{entity_id}/deploy",
+          "feature_id": "F42-ENTITIES",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F42-ENTITIES-001",
+          "title": "GET /v1/entities",
+          "feature_id": "F42-ENTITIES",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F42-ENTITIES-002",
+          "title": "GET /v1/entities/{entity_id}/info",
+          "feature_id": "F42-ENTITIES",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F42-ENTITIES-003",
+          "title": "POST /v1/entities/{entity_id}/reload",
+          "feature_id": "F42-ENTITIES",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F42-ENTITIES-004",
+          "title": "POST /v1/entities/{entity_id}/deploy",
+          "feature_id": "F42-ENTITIES",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F42-DEPLOYMENTS",
+      "title": "DEPLOYMENTS API",
+      "source_heading": "## Feature: DEPLOYMENTS API [ID=F42-DEPLOYMENTS]",
+      "stories": [
+        {
+          "id": "F42-DEPLOYMENTS-001",
+          "title": "POST /v1/deployments",
+          "feature_id": "F42-DEPLOYMENTS",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F42-DEPLOYMENTS-002",
+          "title": "GET /v1/deployments",
+          "feature_id": "F42-DEPLOYMENTS",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F42-DEPLOYMENTS-003",
+          "title": "GET /v1/deployments/{deployment_id}",
+          "feature_id": "F42-DEPLOYMENTS",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F42-DEPLOYMENTS-004",
+          "title": "DELETE /v1/deployments/{deployment_id}",
+          "feature_id": "F42-DEPLOYMENTS",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F42-DEPLOYMENTS-001",
+          "title": "POST /v1/deployments",
+          "feature_id": "F42-DEPLOYMENTS",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F42-DEPLOYMENTS-002",
+          "title": "GET /v1/deployments",
+          "feature_id": "F42-DEPLOYMENTS",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F42-DEPLOYMENTS-003",
+          "title": "GET /v1/deployments/{deployment_id}",
+          "feature_id": "F42-DEPLOYMENTS",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F42-DEPLOYMENTS-004",
+          "title": "DELETE /v1/deployments/{deployment_id}",
+          "feature_id": "F42-DEPLOYMENTS",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F42-RESPONSES",
+      "title": "RESPONSES API",
+      "source_heading": "## Feature: RESPONSES API [ID=F42-RESPONSES]",
+      "stories": [
+        {
+          "id": "F42-RESPONSES-001",
+          "title": "POST /v1/responses",
+          "feature_id": "F42-RESPONSES",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F42-RESPONSES-002",
+          "title": "POST /v1/responses/{response_id}/cancel",
+          "feature_id": "F42-RESPONSES",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F42-RESPONSES-001",
+          "title": "POST /v1/responses",
+          "feature_id": "F42-RESPONSES",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F42-RESPONSES-002",
+          "title": "POST /v1/responses/{response_id}/cancel",
+          "feature_id": "F42-RESPONSES",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F42-CONVERSATION",
+      "title": "CONVERSATION API",
+      "source_heading": "## Feature: CONVERSATION API [ID=F42-CONVERSATION]",
+      "stories": [
+        {
+          "id": "F42-CONVERSATION-001",
+          "title": "POST /v1/conversations",
+          "feature_id": "F42-CONVERSATION",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F42-CONVERSATION-002",
+          "title": "GET /v1/conversations",
+          "feature_id": "F42-CONVERSATION",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F42-CONVERSATION-003",
+          "title": "GET /v1/conversations/{conversation_id}",
+          "feature_id": "F42-CONVERSATION",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F42-CONVERSATION-004",
+          "title": "POST /v1/conversations/{conversation_id}",
+          "feature_id": "F42-CONVERSATION",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F42-CONVERSATION-005",
+          "title": "DELETE /v1/conversations/{conversation_id}",
+          "feature_id": "F42-CONVERSATION",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F42-CONVERSATION-006",
+          "title": "POST /v1/conversations/{conversation_id}/items",
+          "feature_id": "F42-CONVERSATION",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F42-CONVERSATION-007",
+          "title": "GET /v1/conversations/{conversation_id}/items",
+          "feature_id": "F42-CONVERSATION",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F42-CONVERSATION-008",
+          "title": "GET /v1/conversations/{conversation_id}/items/{item_id}",
+          "feature_id": "F42-CONVERSATION",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F42-CONVERSATION-009",
+          "title": "DELETE /v1/conversations/{conversation_id}/items/{item_id}",
+          "feature_id": "F42-CONVERSATION",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F42-CONVERSATION-001",
+          "title": "POST /v1/conversations",
+          "feature_id": "F42-CONVERSATION",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F42-CONVERSATION-002",
+          "title": "GET /v1/conversations",
+          "feature_id": "F42-CONVERSATION",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F42-CONVERSATION-003",
+          "title": "GET /v1/conversations/{conversation_id}",
+          "feature_id": "F42-CONVERSATION",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F42-CONVERSATION-004",
+          "title": "POST /v1/conversations/{conversation_id}",
+          "feature_id": "F42-CONVERSATION",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F42-CONVERSATION-005",
+          "title": "DELETE /v1/conversations/{conversation_id}",
+          "feature_id": "F42-CONVERSATION",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F42-CONVERSATION-006",
+          "title": "POST /v1/conversations/{conversation_id}/items",
+          "feature_id": "F42-CONVERSATION",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F42-CONVERSATION-007",
+          "title": "GET /v1/conversations/{conversation_id}/items",
+          "feature_id": "F42-CONVERSATION",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F42-CONVERSATION-008",
+          "title": "GET /v1/conversations/{conversation_id}/items/{item_id}",
+          "feature_id": "F42-CONVERSATION",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F42-CONVERSATION-009",
+          "title": "DELETE /v1/conversations/{conversation_id}/items/{item_id}",
+          "feature_id": "F42-CONVERSATION",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F42-CHATKIT",
+      "title": "CHATKIT API",
+      "source_heading": "## Feature: CHATKIT API [ID=F42-CHATKIT]",
+      "stories": [
+        {
+          "id": "F42-CHATKIT-001",
+          "title": "POST /chatkit",
+          "feature_id": "F42-CHATKIT",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F42-CHATKIT-001",
+          "title": "POST /chatkit",
+          "feature_id": "F42-CHATKIT",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F42-UPLOAD",
+      "title": "UPLOAD API",
+      "source_heading": "## Feature: UPLOAD API [ID=F42-UPLOAD]",
+      "stories": [
+        {
+          "id": "F42-UPLOAD-001",
+          "title": "POST /upload/{attachment_id}",
+          "feature_id": "F42-UPLOAD",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F42-UPLOAD-001",
+          "title": "POST /upload/{attachment_id}",
+          "feature_id": "F42-UPLOAD",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F42-PREVIEW",
+      "title": "PREVIEW API",
+      "source_heading": "## Feature: PREVIEW API [ID=F42-PREVIEW]",
+      "stories": [
+        {
+          "id": "F42-PREVIEW-001",
+          "title": "GET /preview/{attachment_id}",
+          "feature_id": "F42-PREVIEW",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F42-PREVIEW-001",
+          "title": "GET /preview/{attachment_id}",
+          "feature_id": "F42-PREVIEW",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F42-STREAM",
+      "title": "STREAM API",
+      "source_heading": "## Feature: STREAM API [ID=F42-STREAM]",
+      "stories": [
+        {
+          "id": "F42-STREAM-001",
+          "title": "GET /stream",
+          "feature_id": "F42-STREAM",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F42-STREAM-001",
+          "title": "GET /stream",
+          "feature_id": "F42-STREAM",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F42-MCP",
+      "title": "MCP API",
+      "source_heading": "## Feature: MCP API [ID=F42-MCP]",
+      "stories": [
+        {
+          "id": "F42-MCP-001",
+          "title": "POST /mcp",
+          "feature_id": "F42-MCP",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F42-MCP-002",
+          "title": "GET /mcp",
+          "feature_id": "F42-MCP",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F42-MCP-003",
+          "title": "DELETE /mcp",
+          "feature_id": "F42-MCP",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F42-MCP-004",
+          "title": "POST /mcp",
+          "feature_id": "F42-MCP",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F42-MCP-001",
+          "title": "POST /mcp",
+          "feature_id": "F42-MCP",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F42-MCP-002",
+          "title": "GET /mcp",
+          "feature_id": "F42-MCP",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F42-MCP-003",
+          "title": "DELETE /mcp",
+          "feature_id": "F42-MCP",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F42-MCP-004",
+          "title": "POST /mcp",
+          "feature_id": "F42-MCP",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F42-UI",
+      "title": "UI Pages",
+      "source_heading": "## Feature: UI Pages [ID=F42-UI]",
+      "stories": [
+        {
+          "id": "F42-UI-001",
+          "title": "Route /plan/:planId",
+          "feature_id": "F42-UI",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F42-UI-001",
+          "title": "Route /plan/:planId",
+          "feature_id": "F42-UI",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F42-OPS",
+      "title": "Operations Scripts",
+      "source_heading": "## Feature: Operations Scripts [ID=F42-OPS]",
+      "stories": [
+        {
+          "id": "F42-OPS-001",
+          "title": "merge_principal_ids()",
+          "feature_id": "F42-OPS",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F42-OPS-002",
+          "title": "log_verbose()",
+          "feature_id": "F42-OPS",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F42-OPS-003",
+          "title": "restore_network_access()",
+          "feature_id": "F42-OPS",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F42-OPS-004",
+          "title": "cleanup_on_exit()",
+          "feature_id": "F42-OPS",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F42-OPS-005",
+          "title": "test_azd_installed()",
+          "feature_id": "F42-OPS",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F42-OPS-006",
+          "title": "get_values_from_azd_env()",
+          "feature_id": "F42-OPS",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F42-OPS-007",
+          "title": "extract_value()",
+          "feature_id": "F42-OPS",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F42-OPS-008",
+          "title": "get_values_from_az_deployment()",
+          "feature_id": "F42-OPS",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F42-OPS-009",
+          "title": "get_values_using_solution_suffix()",
+          "feature_id": "F42-OPS",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F42-OPS-010",
+          "title": "configure_nssdb()",
+          "feature_id": "F42-OPS",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F42-OPS-001",
+          "title": "merge_principal_ids()",
+          "feature_id": "F42-OPS",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F42-OPS-002",
+          "title": "log_verbose()",
+          "feature_id": "F42-OPS",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F42-OPS-003",
+          "title": "restore_network_access()",
+          "feature_id": "F42-OPS",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F42-OPS-004",
+          "title": "cleanup_on_exit()",
+          "feature_id": "F42-OPS",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F42-OPS-005",
+          "title": "test_azd_installed()",
+          "feature_id": "F42-OPS",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F42-OPS-006",
+          "title": "get_values_from_azd_env()",
+          "feature_id": "F42-OPS",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F42-OPS-007",
+          "title": "extract_value()",
+          "feature_id": "F42-OPS",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F42-OPS-008",
+          "title": "get_values_from_az_deployment()",
+          "feature_id": "F42-OPS",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F42-OPS-009",
+          "title": "get_values_using_solution_suffix()",
+          "feature_id": "F42-OPS",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        },
+        {
+          "id": "F42-OPS-010",
+          "title": "configure_nssdb()",
+          "feature_id": "F42-OPS",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F42-CREATE_RESPO",
+      "title": "CREATE_RESPO API",
+      "source": "code-structure",
+      "stories": [
+        {
+          "id": "F42-CREATE_RESPO-001",
+          "title": "POST /api/create_response",
+          "feature_id": "F42-CREATE_RESPO",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F42-USER_BROWSER",
+      "title": "USER_BROWSER API",
+      "source": "code-structure",
+      "stories": [
+        {
+          "id": "F42-USER_BROWSER-001",
+          "title": "POST /api/user_browser_language",
+          "feature_id": "F42-USER_BROWSER",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F42-FULL_PATHPAT",
+      "title": "FULL_PATHPAT API",
+      "source": "code-structure",
+      "stories": [
+        {
+          "id": "F42-FULL_PATHPAT-001",
+          "title": "GET /{full_path:path}",
+          "feature_id": "F42-FULL_PATHPAT",
+          "done": false,
+          "source": "code-structure",
+          "tasks": []
+        }
+      ]
+    }
+  ]
+}
